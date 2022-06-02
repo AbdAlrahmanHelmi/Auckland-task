@@ -1,0 +1,51 @@
+.featur-header {
+  font-size: 32px;
+  font-weight: 700;
+  display: inline-block;
+  vertical-align: middle;
+}
+.featur-header:hover {
+  color: #1eb3ec;
+  cursor: pointer;
+}
+.btn-featur {
+  background-color: #1eb3ec;
+}
+.card-feature{
+  cursor: pointer;
+}
+
+.from-card {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1eb3ec;
+}
+.price-after {
+  font-size: 35px;
+  line-height: 1;
+  font-weight: 500;
+  color: #1eb3ec;
+}
+
+@media screen and (min-width: 650px) {
+  .card-feature {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+@media screen and (min-width: 1160px) {
+  .card-feature {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 649px) {
+  .card-feature {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+}

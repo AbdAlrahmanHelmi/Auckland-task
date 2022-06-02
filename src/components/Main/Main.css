@@ -1,0 +1,135 @@
+.container-me {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+  padding: 10px 15px 20px;
+  background-color: #f4f7fb;
+}
+.aside-nav {
+  width: 23%;
+  background-color: #ffff;
+}
+
+.nav-header {
+  font-size: 28px;
+  font-weight: 700;
+  background-color: #fff;
+  border-bottom: 1px solid #dce3ed;
+  border-radius: 3px 3px 0 0;
+  padding: 15px 20px;
+  color: #01b2ee;
+}
+
+.branch-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 500;
+  color: #4f5864;
+  line-height: 1;
+  transition: all 0.15s ease-out;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+.heade-brunch:hover {
+  color: #01b2ee;
+}
+.num-brunch {
+  color: #92a2ad;
+  font-weight: 300;
+  font-size: 14px;
+}
+.card-aside {
+  width: 80%;
+}
+@media screen and (min-width: 601px) {
+  .first-image {
+    display: block;
+  }
+  .second-image {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .first-image {
+    display: none;
+  }
+  .second-image {
+    display: block;
+  }
+}
+
+.bought {
+  font-size: 14px;
+  color: #92a2ad;
+  width: 30%;
+  flex: none;
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: left;
+}
+.from {
+  color: #01b2ee;
+  position: relative;
+  left: 70%;
+}
+.price {
+  font-size: 35px;
+  line-height: 1;
+  font-weight: 500;
+  color: #01b2ee;
+}
+.del {
+  position: relative;
+  top: 90%;
+}
+
+.overlay {
+  background-color: #01b2ee;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 65%;
+  width: 100%;
+  opacity: 0;
+  
+  
+}
+.overlay:hover{
+  opacity: 0.8;
+}
+.overlay p{
+  color: #ffff;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+@media screen and (max-width: 1159px) {
+  .aside-nav {
+    display: none;
+  }
+}
+@media screen and (min-width: 650px) {
+  .card-aside {
+    width: 100%;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 649px) {
+  .card-aside {
+    width: 100%;
+    display: grid;
+    grid-template-columns: (1, 1fr);
+  }
+}

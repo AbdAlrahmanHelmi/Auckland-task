@@ -1,0 +1,26 @@
+.bottom-nav {
+  background-color: #ffff;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+}
+.p-bottom:hover {
+  color: #01b2ee;
+  cursor: pointer;
+}
+
+.bi-house-door:hover,
+.bi-search-bottom:hover,
+.bi-grid:hover,
+.bi-cart:hover,
+.bi-person-bootom:hover {
+  color: #01b2ee;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1088px) {
+  .bottom-nav {
+    display: none;
+  }
+}

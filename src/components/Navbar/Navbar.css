@@ -1,0 +1,53 @@
+.postion-nav {
+  position: absolute;
+  right: 5%;
+}
+div .firstNav {
+  background: #01b2ee;
+  width: 100%;
+  height: 60px;
+}
+.toogleStyle {
+  background-color: #01b2ee !important;
+  border: none !important;
+}
+
+.dropStyle {
+  width: 250px;
+}
+
+.menue1:hover {
+  color: #01b2ee !important;
+}
+.logo-image {
+  position: absolute;
+  left: 1%;
+  z-index: 1;
+}
+.bi-heart,
+.bi-cart2,
+.bi-envelope,
+.bi-person {
+  fill: #ffff;
+  cursor: pointer;
+}
+.bi-envelope-nav {
+  fill: #ffff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1087px) {
+  .d-icon {
+    display: none;
+  }
+  div .firstNav {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+}
+@media screen and (min-width: 1088px) {
+  .d-icon {
+    display: flex;
+  }
+}

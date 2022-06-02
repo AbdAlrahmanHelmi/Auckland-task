@@ -1,0 +1,44 @@
+.container-me {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
+  padding: 10px 15px 20px;
+  background-color: #f4f7fb;
+}
+
+.sub {
+  background-color: #ffff;
+
+  padding-left: 45px;
+  padding-right: 45px;
+}
+.message-sub {
+  color: #01b2ee;
+  font-size: 22px;
+  font-weight: 700;
+  padding-right: 10px;
+}
+.bi-envelope {
+  fill: #92a2ad;
+}
+.email-bar {
+  height: 40px;
+  padding: 0 15px 0 40px;
+  font-size: 15px;
+  color: #4f5864;
+  background-color: #fff;
+  box-shadow: 0 0 8px 0 rgb(79 88 100 / 10%);
+  border-radius: 5px;
+  border: 1px solid #dce3ed;
+  width: 100%;
+}
+.enter-email {
+  transform: translate(-18px, -4px);
+}
+@media screen and (min-width: 1280px) {
+  .sub {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

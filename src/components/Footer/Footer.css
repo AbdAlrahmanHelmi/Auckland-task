@@ -1,0 +1,58 @@
+.social:hover{
+  cursor: pointer;
+  color: #01b2ee;
+}
+.footer-bg{
+  background-color: #ffff;
+}
+
+
+.grid-footer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+ 
+}
+
+
+@media screen and (max-width: 1279px) {
+  .input-md {
+    display: block;
+  }
+  .input-lg {
+    display: none;
+  }
+  .grid-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   
+  }
+}
+@media screen and (min-width: 1280px) {
+    .input-md {
+      display: none;
+    }
+    .input-lg {
+      display: block;
+    }
+  }
+  @media screen and (max-width:860px) {
+    .grid-footer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+       
+      }
+  }
+  @media screen and (max-width:649px) {
+    .grid-footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+       
+      }
+  }
+  @media screen and (max-width:439px) {
+    .grid-footer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+       
+      }
+  }
